@@ -1,4 +1,5 @@
 streamlit==1.25.0
-torch==2.2.0  # or just torch if you want the latest version
+torch==2.2.0
 transformers==4.29.0
 pillow==9.2.0
+tokenizers==0.13.3  # Update if needed
