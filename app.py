@@ -70,7 +70,7 @@ with st.sidebar:
     if uploaded_file:
         st.session_state.uploaded_file = uploaded_file
         image = Image.open(uploaded_file)
-        st.image(image, caption="Uploaded Image" if option == "Upload an Image" else "Captured Image", use_container_width=True, width=400)
+        st.image(image, caption="Uploaded Image" if option == "Upload an Image" else "Captured Image", width=500)
 
 with st.container():
     st.markdown("---")
