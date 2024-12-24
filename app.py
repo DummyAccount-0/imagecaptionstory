@@ -123,6 +123,6 @@ st.markdown("""
         font-size: 14px;
         box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
     ">
-    Made with ❤ by Team Dawn
+    Made with ❤ by Rajat Prakash Dhal 
     </div>
 """, unsafe_allow_html=True)
